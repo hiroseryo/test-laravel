@@ -1,0 +1,93 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #8c7b6b;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #8c7b6b;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.required {
+    color: red;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-group input[type="tel"] {
+    width: calc(33% - 10px);
+    display: inline-block;
+}
+
+.form-group select {
+    width: 100%;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+.submit-button button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #8c7b6b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button button:hover {
+    background-color: #705d4a;
+}

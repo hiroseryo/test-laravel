@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #8c7b6b;
+    border-bottom: solid #705d4a;
+}
+
+.confirm-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.confirm-form h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #8c7b6b;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    background-color: #8c7b6b;
+    width: 30%;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group p {
+    width: 100%;
+    font-size: 15px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.form-group.buttons {
+    text-align: center;
+    justify-content: center;
+}
+
+.submit-button,
+.back-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #8c7b6b;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.submit-button:hover,
+.back-button:hover {
+    background-color: #705d4a;
+}
